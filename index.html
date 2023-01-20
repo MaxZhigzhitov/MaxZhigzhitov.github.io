@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>This is My Portfolio Page</title>
+
+    <link href="css/reset.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="icofont/icofont.min.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="underlay">
+      <div class="container">
+        <header class="contacts flex-row flex-align-center">
+          <div class="contacts__name flex-row left flex-align-center">
+            <img
+              class="avatar header__avatar"
+              src="images/myPhoto.jpg"
+              alt="photo of author"
+            />
+            <div>Zhigzhitov Max, Web-Developer</div>
+          </div>
+          <div class="contacts__location flex-row right flex-align-center">
+            <img src="images/svg/cube-rounded.svg" alt="a blue cube icon" />
+            <div>Location: Ulaanbaatar, Mongolia, + 08:00 GMT</div>
+          </div>
+          <div class="dropdown-wrapper">
+            <button class="cta-button fill dropdown">
+              Contact Me
+
+              <!-- Скрыто по-умолчанию -->
+            </button>
+            <div class="dropdown-menu">
+              <ul>
+                <li class="dropdown-item flex-row stretch">
+                  <a
+                    class="dropdown-link"
+                    href="mailto:maxzhidesktop@gmail.com"
+                  >
+                    <div>E-Mail</div>
+                    <i class="icofont icofont-envelope"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item flex-row stretch">
+                  <a class="dropdown-link" href="https://t.me/MaxZhigzhitov">
+                    <div>Telegram</div>
+                    <i class="icofont icofont-telegram"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item flex-row stretch">
+                  <a class="dropdown-link" href="#">
+                    <div>whatsapp</div>
+                    <i class="icofont icofont-whatsapp"></i>
+                  </a>
+                </li>
+                <li class="dropdown-item flex-row stretch">
+                  <a
+                    class="dropdown-link"
+                    href="https://www.facebook.com/profile.php?id=100086622786560"
+                  >
+                    <div>Facebook</div>
+                    <i class="icofont icofont-facebook"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </header>
+      </div>
+      <div class="container">
+        <section class="title-screen" id="title-screen">
+          <div class="grid-2col">
+            <div class="col">
+              <div class="content-text title-screen__content-text">
+                <h1 class="title title-h1">Я создаю веб-сайты</h1>
+                <div class="textbox title-screen__textbox">
+                  <p>
+                    Сделаю качественную верстку ваших дизайнов из Figma и
+                    Photoshop в формате HTML. Выслушаю заказчика и обращу
+                    внимание на необходимые детали.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="title-screen__content-buttons flex-row flex-align-center"
+              >
+                <div class="dropdown-wrapper">
+                  <button class="cta-button fill dropdown">Contact Me</button>
+                  <div class="dropdown-menu">
+                    <ul>
+                      <li class="dropdown-item flex-row stretch">
+                        <a
+                          class="dropdown-link"
+                          href="mailto:maxzhidesktop@gmail.com"
+                        >
+                          <div>E-Mail</div>
+                          <i class="icofont icofont-envelope"></i>
+                        </a>
+                      </li>
+                      <li class="dropdown-item flex-row stretch">
+                        <a
+                          class="dropdown-link"
+                          href="https://t.me/MaxZhigzhitov"
+                        >
+                          <div>Telegram</div>
+                          <i class="icofont icofont-telegram"></i>
+                        </a>
+                      </li>
+                      <li class="dropdown-item flex-row stretch">
+                        <a class="dropdown-link" href="#">
+                          <div>whatsapp</div>
+                          <i class="icofont icofont-whatsapp"></i>
+                        </a>
+                      </li>
+                      <li class="dropdown-item flex-row stretch">
+                        <a
+                          class="dropdown-link"
+                          href="https://www.facebook.com/profile.php?id=100086622786560"
+                        >
+                          <div>Facebook</div>
+                          <i class="icofont icofont-facebook"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a class="cta-button" href="#work">See my works</a>
+              </div>
+            </div>
+            <div class="col">
+              <div class="title-screen__content-image">
+                <img
+                  src="images/title-image-notebook.png"
+                  alt="image of a blank notebook"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <section class="about" id="about">
+        <div class="container">
+          <div class="grid-2col">
+            <div class="col">
+              <img
+                class="avatar about__avatar"
+                src="images/about-image-myphoto.png"
+                alt="photo of me"
+              />
+            </div>
+
+            <div class="col">
+              <div class="content-text">
+                <h2 class="title title-h2">Обо мне</h2>
+                <div class="textbox title-screen__textbox">
+                  <p>
+                    Меня зовут Максим. Я живу в Улан-Баторе, Монголия и
+                    регулярно совершенствую свои навыки веб-дизайна, верстки
+                    страниц и систем управления контентом (CMS).
+                  </p>
+                  <p>
+                    Я люблю веб-дизайн, поэтому отнесусь к предложенной работе с
+                    ответственностью и постараюсь, чтобы все выглядело и
+                    работало так, как если бы я делал сайт для себя.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="blue-cube-wrapper cube-abs">
+            <img
+              class="blue-cube"
+              src="images/svg/cube-rounded.svg"
+              alt="a blue cube icon"
+            />
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <section class="work" id="work">
+          <h2 class="title title-h2">Мои работы</h2>
+          <div class="work__item-wrapper">
+            <div class="grid-2col">
+              <div class="col">
+                <img
+                  class="work__image"
+                  src="images/cafe-landing/cafe-landing1.png"
+                  alt="cafe landing page picture 1"
+                />
+                <img
+                  class="work__image"
+                  src="images/cafe-landing/cafe-landing2.png"
+                  alt="cafe landing page picture 2"
+                />
+              </div>
+              <div class="col">
+                <h3 class="title work-title">RESTAURANT LANDING PAGE</h3>
+                <div class="blue-cube-wrapper cube-abs">
+                  <img
+                    class="blue-cube"
+                    src="images/svg/cube-rounded.svg"
+                    alt="a blue cube icon"
+                  />
+                </div>
+
+                <div class="mobile-mockup-wrapper">
+                  <div class="mockup-item mobile">
+                    <img src="images/device-mockup/devices-phone.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a
+              class="cta-button cta-button__centered fill"
+              href="https://maxzhigzhitov.github.io/restaurant-landing/"
+              >View Live Demo</a
+            >
+          </div>
+
+          <div class="work__item-wrapper">
+            <div class="grid-2col">
+              <div class="col">
+                <img
+                  class="work__image"
+                  src="images/ski-landing-page/ski-landing1.png"
+                  alt="ski landing page picture 1"
+                />
+                <img
+                  class="work__image"
+                  src="images/ski-landing-page/ski-landing2.png"
+                  alt="ski landing page picture 2"
+                />
+                <img
+                  class="work__image"
+                  src="images/ski-landing-page/ski-landing3.png"
+                  alt="ski landing page picture 3"
+                />
+              </div>
+              <div class="col">
+                <h3 class="title work-title">SKI LANDING PAGE</h3>
+                <div class="mobile-mockup-wrapper">
+                  <div class="mockup-item mobile">
+                    <img src="images/device-mockup/devices-phone.png" alt="" />
+                  </div>
+                  <div class="mockup-item tablet">
+                    <img src="images/device-mockup/devices-tablet.png" alt="" />
+                  </div>
+                </div>
+                <div class="blue-cube-wrapper cube-abs">
+                  <img
+                    class="blue-cube"
+                    src="images/svg/cube-rounded.svg"
+                    alt="a blue cube icon"
+                  />
+                </div>
+              </div>
+            </div>
+            <a
+              class="cta-button cta-button__centered fill"
+              href="https://maxzhigzhitov.github.io/ski-landing/"
+              >View Live Demo</a
+            >
+          </div>
+        </section>
+
+        <section class="features" id="features">
+          <h2 class="title title-h2">Чем я занимаюсь?</h2>
+
+          <div class="features__list flex-row stretch">
+            <div class="features__item">
+              <div class="features__name">HTML - верстка</div>
+              <div class="features__descr">
+                <p>
+                  Адаптивно Сверстаю ваш проект из Figma или Photoshop или
+                  аналогичных программ с использованием BEM методологии
+                </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <div class="features__name">CSS, javascript</div>
+              <div class="features__descr">
+                <p>
+                  Стилизую HTML разметку с использованием CSS, добавлю
+                  необходимый функционал графического интерфейса посредством JS
+                </p>
+              </div>
+            </div>
+            <div class="features__item">
+              <div class="features__name">Редизайн</div>
+              <div class="features__descr">
+                <p>
+                  Обновлю дизайн Вашего сайта: обновление внешнего вида,
+                  сочетание элементов сайта в едином стиле, подбор шрифтов и
+                  цветовой схемы
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="blue-cube-wrapper">
+            <img
+              class="blue-cube"
+              src="images/svg/cube-rounded.svg"
+              alt="a blue cube icon"
+            />
+          </div>
+        </section>
+
+        <footer class="footer" id="footer">
+          <div class="contacts flex-row flex-align-center">
+            <div class="contacts__name flex-row left flex-align-center">
+              <img
+                class="avatar header__avatar"
+                src="images/myPhoto.jpg"
+                alt="photo of author"
+              />
+              <div>Zhigzhitov Max, Web-Developer</div>
+            </div>
+            <div class="contacts__location flex-row right flex-align-center">
+              <img src="images/svg/cube-rounded.svg" alt="a blue cube icon" />
+              <div>Location: Ulaanbaatar, Mongolia, + 08:00 GMT</div>
+            </div>
+          </div>
+
+          <h2 class="title title-h2">
+            пишите мне - я буду рад принять ваш заказ
+          </h2>
+          <div class="dropdown-menu">
+            <ul>
+              <li class="dropdown-item flex-row stretch">
+                <a class="dropdown-link" href="mailto:maxzhidesktop@gmail.com">
+                  <div>E-Mail</div>
+                  <i class="icofont icofont-envelope"></i>
+                </a>
+              </li>
+              <li class="dropdown-item flex-row stretch">
+                <a class="dropdown-link" href="https://t.me/MaxZhigzhitov">
+                  <div>Telegram</div>
+                  <i class="icofont icofont-telegram"></i>
+                </a>
+              </li>
+              <li class="dropdown-item flex-row stretch">
+                <a class="dropdown-link" href="#">
+                  <div>whatsapp</div>
+                  <i class="icofont icofont-whatsapp"></i>
+                </a>
+              </li>
+              <li class="dropdown-item flex-row stretch">
+                <a
+                  class="dropdown-link"
+                  href="https://www.facebook.com/profile.php?id=100086622786560"
+                >
+                  <div>Facebook</div>
+                  <i class="icofont icofont-facebook"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
